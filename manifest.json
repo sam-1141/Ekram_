@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "SongSensei",
+    "version": "1.0",
+    "description": "Suggests the next YouTube video based on the currently playing video.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "assets/logo.png"
+      },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
