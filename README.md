@@ -4,7 +4,7 @@
 
 ![Alt text](assets/logo.png)
 
-
+This Chrome extension enhances the YouTube browsing experience by suggesting the next video based on the currently playing video, seamlessly integrating into the user's browsing session. By injecting content scripts into YouTube pages, it extracts video information and provides intuitive recommendations for a continuous viewing experience.
 ### To run in local browser:
 
 Clone the repository first.
